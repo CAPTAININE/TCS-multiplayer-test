@@ -1,0 +1,11 @@
+
+static/.DS_Store
+.DS_Store
+.vscode/settings.json
+/out/
+node_modules
+.env
+.vs/
+/cookies.txt
+/hts-log.txt
+/hts-cache/

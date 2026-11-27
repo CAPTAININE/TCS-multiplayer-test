@@ -1,0 +1,915 @@
+campaignTrail_temp.election_json = JSON.parse("[{\"model\": \"campaign_trail.election\", \"pk\": 9, \"fields\": {\"year\": 2000, \"summary\": \"<div style='overflow-y:scroll;height:11em;text-align:center;font-size:20px;color:#FFE701'><b><br><br><p>STAR WARS - Fan Fiction</p><p>2000 Palpatine</p><br><br><p>Disaster strikes the galaxy! SHEEV PALPATINE, Chancellor of the GALACTIC REPUBLIC, suddenly disappeared one day while performing his duties in Coruscant. Everything falls into chaos, and the Republic is in a huge crisis.</p><br><p>Meanwhile, a small country called the UNITED STATES, on a planet called EARTH on the edge of a galaxy, holds huge elections for natives to elect their leaders.</p><br><p>While the Galactic Senate and the Jedi knights struggle to find CHANCELLOR PALPATINE, somehow he appears on this planet and challenges the election with ONE STRONG FOLLOWER who serves him...</p></b></div>\", \"image_url\": \"https://raw.githubusercontent.com/FlongydOlson/OlsonMods/main/2000%20Palpatine/2000pnewimage.png\", \"winning_electoral_vote_number\": 270, \"advisor_url\": \"https://raw.githubusercontent.com/FlongydOlson/OlsonMods/main/2000%20Palpatine/dookuadvisor.png\", \"recommended_reading\": \"<div style=\\\"overflow-y:scroll;height:357.133px;font-size:1em;\\\"><h1>Thank you for playing 2000 Palpatine!</h1><p><img src=\\\"https://raw.githubusercontent.com/FlongydOlson/OlsonMods/main/2000%20Palpatine/frjarjar.png\\\"><br></p><p>Heyo-dalee. It'sa my, Jar Jar Binks. Tank yous per playin' anutter mod made by FlongydOlson.</p><p><span style=\\\"width:700px;text-align:center;display:inline-block;line-height:1.33em;\\\">Dis was a completely new attempt per mesa, whosa created duey South Korean mods of da 1963 un 1971 elections. My've alritty tried ta deal witda US election inda grotesque creepypasta mod culled 1968c, buta Mesa wanted ta create a mod dat yousa can actually enjoy many times, notsa sum kind of visual Nobel format liken dat mod. At da same-o time, Mesa taut it would besa betto per mesa, notsa an American, ta start wit a light joke mod rather dan take history seriously, unda result dissen mod, 2000 Palpatine. I'd besa berry smilen iffen yousa enjoyed playin' dis mod.</span></p><p><span style=\\\"width:700px;text-align:center;display:inline-block;line-height:1.33em;\\\">Also, dis mod was created un released in 2023, buta dare were sum minor updates, such as UI improvements un new achievements, in January 2026. Iffen you'd liken ta try da 2023 version, yousa can enjoy dis mod onda New Campaign Trail!</span></p><p>Lastly, I'd liken ta tank da 2008 Spongebob team un Diamondy per deir hot inspiration per dis. See yousa later!</p></div>\", \"site_description\": \"<span style='font-size:17px'><b><br><p>STAR WARS - Fan Fiction</p><p>2000 Palpatine</p><br><br><p>Disaster strikes the galaxy! SHEEV PALPATINE, Chancellor of the GALACTIC REPUBLIC, suddenly disappeared one day while performing his duties in Coruscant. Everything falls into chaos, and the Republic is in a huge crisis.</p><br><p>Meanwhile, a small country called the UNITED STATES, on a planet called EARTH on the edge of a galaxy, holds huge elections for natives to elect their leaders.</p><br><p>While the Galactic Senate and the Jedi knights struggle to find CHANCELLOR PALPATINE, somehow he appears on this planet and challenges the election with ONE STRONG FOLLOWER who serves him...</p></b></span>\", \"has_visits\": 1, \"no_electoral_majority_image\": \"https://raw.githubusercontent.com/FlongydOlson/OlsonMods/main/2000%20Palpatine/deadlock.png\"}}]");
+campaignTrail_temp.candidate_json = JSON.parse("[{\"model\": \"campaign_trail.candidate\", \"pk\": 77, \"fields\": {\"first_name\": \"Sheev\", \"last_name\": \"Palpatine\", \"election\": 9, \"party\": \"Republican\", \"state\": \"Naboo\", \"priority\": 1, \"description\": \"<center><b><p>Name: Sheev Palpatine</p><p>Party: Republican</p><p>Home Planet: Naboo</p></b><p>Look outside. There's a beautiful blend of untouched natural environments and wonderfully developed buildings, even though they're far short of Coruscant. It's gorgeous, but on the other hand, it's a shame. What a waste to leave a planet like this as the territory of poor natives who don't even sense the Force, what a miserable tragedy.</p><p>I love democracy. I love the Republic. I've already joined a faction of natives called the Republican Party, which uses the red color of the proud Sith as a symbol, and have been nominated to run for leadership here. I will defeat those ridiculous and insignificant natives...and be elected overwhelmingly. And this...will be the base for our Sith...to take control of the entire galaxy!</p></center>\", \"color_hex\": \"#B82859\", \"secondary_color_hex\": \"#B82859\", \"is_active\": 1, \"image_url\": \"https://raw.githubusercontent.com/FlongydOlson/OlsonMods/main/2000%20Palpatine/sheev.png\", \"electoral_victory_message\": \"\", \"electoral_loss_message\": \"\", \"no_electoral_majority_message\": \"\", \"description_as_running_mate\": \"''\", \"candidate_score\": 1.0}}, {\"model\": \"campaign_trail.candidate\", \"pk\": 78, \"fields\": {\"first_name\": \"Al\", \"last_name\": \"Gore\", \"election\": 9, \"party\": \"Democrat\", \"state\": \"Tennessee\", \"priority\": 2, \"description\": \"\", \"color_hex\": \"#4DC8E6\", \"secondary_color_hex\": \"#4DC8E6\", \"is_active\": 0, \"image_url\": \"https://raw.githubusercontent.com/FlongydOlson/OlsonMods/main/2000%20Palpatine/gore2000.png\", \"electoral_victory_message\": \"\", \"electoral_loss_message\": \"\", \"no_electoral_majority_message\": \"\", \"description_as_running_mate\": \"''\", \"candidate_score\": 1.0}}, {\"model\": \"campaign_trail.candidate\", \"pk\": 79, \"fields\": {\"first_name\": \"Ralph\", \"last_name\": \"Nader\", \"election\": 9, \"party\": \"Green\", \"state\": \"Connecticut\", \"priority\": 3, \"description\": \"\", \"color_hex\": \"#45A457\", \"secondary_color_hex\": \"#45A457\", \"is_active\": 0, \"image_url\": \"https://raw.githubusercontent.com/FlongydOlson/OlsonMods/main/2000%20Palpatine/darthnader.png\", \"electoral_victory_message\": \"\", \"electoral_loss_message\": \"\", \"no_electoral_majority_message\": \"\", \"description_as_running_mate\": \"''\", \"candidate_score\": 1.0}}, {\"model\": \"campaign_trail.candidate\", \"pk\": 80, \"fields\": {\"first_name\": \"George\", \"last_name\": \"Lucas\", \"election\": 9, \"party\": \"Reform\", \"state\": \"California\", \"priority\": 4, \"description\": \"''\", \"color_hex\": \"#F9DC38\", \"secondary_color_hex\": \"#F9DC38\", \"is_active\": 0, \"image_url\": \"https://raw.githubusercontent.com/FlongydOlson/OlsonMods/main/2000%20Palpatine/buchanan.png\", \"electoral_victory_message\": \"''\", \"electoral_loss_message\": \"''\", \"no_electoral_majority_message\": \"''\", \"description_as_running_mate\": \"''\", \"candidate_score\": 1.0}}, {\"model\": \"campaign_trail.candidate\", \"pk\": 81, \"fields\": {\"first_name\": \"Count\", \"last_name\": \"Dooku\", \"election\": 9, \"party\": \"Republican\", \"state\": \"Serenno\", \"priority\": 5, \"description\": \"''\", \"color_hex\": \"#FF0000\", \"secondary_color_hex\": \"#FFA0A0\", \"is_active\": 0, \"image_url\": \"https://raw.githubusercontent.com/FlongydOlson/OlsonMods/main/2000%20Palpatine/dooku.png\", \"electoral_victory_message\": \"''\", \"electoral_loss_message\": \"''\", \"no_electoral_majority_message\": \"''\", \"description_as_running_mate\": \"<b><center><p>Name: Count Dooku</p><p>Party: Republican</p><p>Home Planet: Serenno</p></b><p>SINO - Sith in Name Only - is the most suitable nickname for calling Dooku or 'Darth Tyranus', the name given by me. I was forced to take this aged and insidious old Jedi, who is hard to understand, as an apprentice, but I have never trusted him. It's obvious that this old man is going to use me and the power of the dark side to accomplish his own, trivial plan.</p><p>But anyway, Tyranus, as my apprentice, has no choice but to obey my orders for now. He's quite good at both political and combat power, so he is probably the best running mate needed for an election here. Yes, choose him. Do it!</p></center>\", \"candidate_score\": 0.0}}, {\"model\": \"campaign_trail.candidate\", \"pk\": 82, \"fields\": {\"first_name\": \"Darth\", \"last_name\": \"Maul\", \"election\": 9, \"party\": \"Republican\", \"state\": \"Dathomir\", \"priority\": 6, \"description\": \"''\", \"color_hex\": \"#FF0000\", \"secondary_color_hex\": \"#FFA0A0\", \"is_active\": 0, \"image_url\": \"https://raw.githubusercontent.com/FlongydOlson/OlsonMods/main/2000%20Palpatine/maul.png\", \"electoral_victory_message\": \"''\", \"electoral_loss_message\": \"''\", \"no_electoral_majority_message\": \"''\", \"description_as_running_mate\": \"<b><center><p>Name: Darth Maul</p><p>Party: Republican</p><p>Home Planet: Dathomir</p></b><p>Darth Maul is my apprentice who had been raised as a Sith since childhood. I thought he died fighting a young Jedi Padawan, named Obi-wan Kenobi in Naboo. But somehow, Maul returned. It turned out he survived with the power of the dark side, and has lived in seclusion.</p><p>Maul is a very great warrior as he always was, and has a great quality to become a Sith lord, since he is skilled in all kinds of intrigues. However, after seeing him for a while since we met again, I found out that he is still blindly loyal to me, but he seems to be a little...distraught due to his revenge on Kenobi. Maul will certainly be an interesting choice, for better or worse.</p></center>\", \"candidate_score\": 0.0}}, {\"model\": \"campaign_trail.candidate\", \"pk\": 83, \"fields\": {\"first_name\": \"General\", \"last_name\": \"Grievous\", \"election\": 9, \"party\": \"Republican\", \"state\": \"Kalee\", \"priority\": 7, \"description\": \"''\", \"color_hex\": \"#FF0000\", \"secondary_color_hex\": \"#FFA0A0\", \"is_active\": 0, \"image_url\": \"https://raw.githubusercontent.com/FlongydOlson/OlsonMods/main/2000%20Palpatine/grievous.png\", \"electoral_victory_message\": \"''\", \"electoral_loss_message\": \"''\", \"no_electoral_majority_message\": \"''\", \"description_as_running_mate\": \"<b><center><p>Name: General Grievous</p><p>Party: Republican</p><p>Home Planet: Kalee</p></b><p>A strong warrior of the Kaleesh, Qymaen jai Sheelal was badly injured in the accident, and replaced most of his body with machines, becoming a cyborg. This is how General Grievous was born. Grievous was trained in combat by Darth Tyranus, and I and Tyranus planned to use him as the commander of the Droid Army in the coming war.</p><p>Grievous knows very little about politics and is not even Force-sensitive, but he is strong, cautious, and will be unlikely to make noticeable mistakes. Furthermore, he brought a legion of droids here, maybe they could be a big help to my campaign. Time to terminate the Democrats, general.</p></center>\", \"candidate_score\": 0.0}}, {\"model\": \"campaign_trail.candidate\", \"pk\": 84, \"fields\": {\"first_name\": \"Jar Jar\", \"last_name\": \"Binks\", \"election\": 9, \"party\": \"Republican\", \"state\": \"Naboo\", \"priority\": 8, \"description\": \"''\", \"color_hex\": \"#FF0000\", \"secondary_color_hex\": \"#FFA0A0\", \"is_active\": 0, \"image_url\": \"https://raw.githubusercontent.com/FlongydOlson/OlsonMods/main/2000%20Palpatine/jarjar.png\", \"electoral_victory_message\": \"''\", \"electoral_loss_message\": \"''\", \"no_electoral_majority_message\": \"''\", \"description_as_running_mate\": \"<b><center><p>Name: Jar Jar Binks</p><p>Party: Republican</p><p>Home Planet: Naboo</p></b><p>Wait, what happened? WHY ON NABOO IS THIS TALKATIVE, ANNOYING, DISGUSTING GUNGAN IN THE RUNNING MATE SELECTION WINDOW? Just looking at the horrible face of Representative Jar Jar Binks hurts my eyes, and he is the worst idiot in the galaxy who only does things that I can't bear to see. Jar Jar's strength is that...he knows how to talk. The downside is everything else. This living disaster would make me a complete joke candidate! No matter how much I think about it, I don't see any chance of winning with Jar Jar, what should I do...</p><p>'Whata??? Chancellor, yousa spaking abouten my now? Iffen yousa do notsa wanten ta campaign wit mesa, My've no choice buta ta tell yousa anutter runnin' mate. Let my introduce, Ro-'</p><p>No, no, no! Representative Binks, I'll just go with you. So please stop the bullshit. Do you understand?</p></center>\", \"candidate_score\": 0.0}}, {\"model\": \"campaign_trail.candidate\", \"pk\": 85, \"fields\": {\"first_name\": \"Joe\", \"last_name\": \"Lieberman\", \"election\": 9, \"party\": \"Democrat\", \"state\": \"Connecticut\", \"priority\": 9, \"description\": \"''\", \"color_hex\": \"#0000FF\", \"secondary_color_hex\": \"#90C0FF\", \"is_active\": 0, \"image_url\": \"/static/images/joe-lieberman-2000.jpg\", \"electoral_victory_message\": \"''\", \"electoral_loss_message\": \"''\", \"no_electoral_majority_message\": \"''\", \"description_as_running_mate\": \"\", \"candidate_score\": 0.0}}, {\"model\": \"campaign_trail.candidate\", \"pk\": 89, \"fields\": {\"first_name\": \"Winona\", \"last_name\": \"LaDuke\", \"election\": 9, \"party\": \"Green\", \"state\": \"Minnesota\", \"priority\": 13, \"description\": \"''\", \"color_hex\": \"#00C100\", \"secondary_color_hex\": \"#A1FFA1\", \"is_active\": 0, \"image_url\": \"/static/images/winona-laduke-2000.jpg\", \"electoral_victory_message\": \"''\", \"electoral_loss_message\": \"''\", \"no_electoral_majority_message\": \"''\", \"description_as_running_mate\": \"\", \"candidate_score\": 0.0}}, {\"model\": \"campaign_trail.candidate\", \"pk\": 90, \"fields\": {\"first_name\": \"Ezola\", \"last_name\": \"Foster\", \"election\": 9, \"party\": \"Reform\", \"state\": \"California\", \"priority\": 14, \"description\": \"''\", \"color_hex\": \"#FFFF00\", \"secondary_color_hex\": \"#FFFFC0\", \"is_active\": 0, \"image_url\": \"''\", \"electoral_victory_message\": \"''\", \"electoral_loss_message\": \"''\", \"no_electoral_majority_message\": \"''\", \"description_as_running_mate\": \"''\", \"candidate_score\": 0.0}}]");
+campaignTrail_temp.running_mate_json = JSON.parse("[{\"model\": \"campaign_trail.running_mate\", \"pk\": 56, \"fields\": {\"candidate\": 79, \"running_mate\": 89}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 57, \"fields\": {\"candidate\": 80, \"running_mate\": 90}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 48, \"fields\": {\"candidate\": 77, \"running_mate\": 81}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 52, \"fields\": {\"candidate\": 78, \"running_mate\": 85}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 49, \"fields\": {\"candidate\": 77, \"running_mate\": 82}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 50, \"fields\": {\"candidate\": 77, \"running_mate\": 83}}, {\"model\": \"campaign_trail.running_mate\", \"pk\": 51, \"fields\": {\"candidate\": 77, \"running_mate\": 84}}]");
+campaignTrail_temp.opponents_default_json = JSON.parse("[{\"election\": 9, \"candidates\": [77, 78, 79, 80]}]");
+campaignTrail_temp.opponents_weighted_json = JSON.parse("[{\"election\": 9, \"candidates\": [78, 77, 79, 80]}]");        
+campaignTrail_temp.difficulty_level_json = JSON.parse("[{\"model\": \"campaign_trail.difficulty_level\", \"pk\": 1, \"fields\": {\"name\": \"For Babies\", \"multiplier\": 1.1}}, {\"model\": \"campaign_trail.difficulty_level\", \"pk\": 2, \"fields\": {\"name\": \"Normal\", \"multiplier\": 0.97}}, {\"model\": \"campaign_trail.difficulty_level\", \"pk\": 3, \"fields\": {\"name\": \"Challenge\", \"multiplier\": 0.9}}]");
+campaignTrail_temp.global_parameter_json = JSON.parse("[{\"model\": \"campaign_trail.global_parameter\", \"pk\": 1, \"fields\": {\"vote_variable\": 1.125, \"max_swing\": 0.12, \"start_point\": 0.94, \"candidate_issue_weight\": 10.0, \"running_mate_issue_weight\": 3.0, \"issue_stance_1_max\": -0.71, \"issue_stance_2_max\": -0.3, \"issue_stance_3_max\": -0.125, \"issue_stance_4_max\": 0.125, \"issue_stance_5_max\": 0.3, \"issue_stance_6_max\": 0.71, \"global_variance\": 0.01, \"state_variance\": 0.005, \"question_count\": 25, \"default_map_color_hex\": \"#C9C9C9\", \"no_state_map_color_hex\": \"#999999\"}}]");
+campaignTrail_temp.candidate_dropout_json = JSON.parse("[{\"model\": \"campaign_trail.candidate_dropout\", \"pk\": 1, \"fields\": {\"candidate\": 36, \"affected_candidate\": 18, \"probability\": 1.0}}]");
+campaignTrail_temp.temp_election_list = [{"id": 9, "year": 2000, "is_premium": 0, "display_year": "2000Palpatine"}];
+campaignTrail_temp.show_premium = true;
+campaignTrail_temp.premier_ab_test_version = -1;
+campaignTrail_temp.achievements = {
+    "Scooby-Dooku" : {
+        "image" : "https://raw.githubusercontent.com/FlongydOlson/OlsonMods/main/2000%20Palpatine/scoobydooku.png",
+        "description" : "Win as Dooku",
+        "cannotBeCheated" : true
+    },
+    "#FreePalpatine" : {
+        "image" : "https://raw.githubusercontent.com/FlongydOlson/OlsonMods/main/2000%20Palpatine/freepalpatine.png",
+        "description" : "Face the fate earlier",
+        "cannotBeCheated" : true
+    },
+    "No Room for Replica" : {
+        "image" : "https://raw.githubusercontent.com/FlongydOlson/OlsonMods/main/2000%20Palpatine/replica.png",
+        "description" : "Win Connecticut as Palpatine-Maul",
+        "cannotBeCheated" : true
+    },
+   "Make Al Gore Awkward" : {
+        "image" : "https://raw.githubusercontent.com/FlongydOlson/OlsonMods/main/2000%20Palpatine/maga.png",
+        "description" : "Get indicted and still win",
+        "cannotBeCheated" : true
+    },
+    "Sheev Rules" : {
+        "image" : "https://raw.githubusercontent.com/FlongydOlson/OlsonMods/main/2000%20Palpatine/sheevrules.png",
+        "description" : "Win on Challenge difficulty",
+        "cannotBeCheated" : true
+    },
+    "Da Whole World Burned" : {
+        "image" : "https://raw.githubusercontent.com/FlongydOlson/OlsonMods/main/2000%20Palpatine/jarjarduh.png",
+        "description" : "Win as Palpatine-Jar Jar without awakening his true identity",
+        "cannotBeCheated" : true
+    },
+    "Justice for Luuwuu" : {
+        "image" : "https://raw.githubusercontent.com/FlongydOlson/OlsonMods/main/2000%20Palpatine/justice.png",
+        "description" : "Win California",
+        "cannotBeCheated" : true
+    },
+    "Mesa All Da Sith" : {
+        "image" : "https://raw.githubusercontent.com/FlongydOlson/OlsonMods/main/2000%20Palpatine/lord.png",
+        "description" : "Find the true ending",
+        "cannotBeCheated" : true
+    }
+}
+
+function updateCreditForm() {
+      const heading = document.querySelector("#credits");
+      if (heading) {
+        heading.innerHTML = "<button onclick='credits()'>This mod was made by <b>FlongydOlson, and...</b></button>";
+      }
+}
+
+function removeCandidateSummary() {
+        const candidateSummary = document.querySelector("#candidate_summary");
+        if (candidateSummary) {
+            const ulList = candidateSummary.querySelectorAll("ul:not(.my-ul)");
+            ulList.forEach(ul => candidateSummary.removeChild(ul));
+        }
+}
+
+function removeRunningMateSummary() {
+        const vpSummary = document.querySelector("#running_mate_summary");
+        if (vpSummary) {
+            const ulList = vpSummary.querySelectorAll("ul:not(.my-ul)");
+            ulList.forEach(ul => vpSummary.removeChild(ul));
+        }
+}
+
+let changesInProgress = false;
+let masterObserver = new MutationObserver(masterFunction);
+function masterFunction() {
+        if (changesInProgress) return;
+        changesInProgress = true;
+        masterObserver.disconnect();
+
+        // Call all the functions here
+        updateCreditForm();
+        removeCandidateSummary();
+        removeRunningMateSummary();
+
+        // Re-observe the document
+        changesInProgress = false;
+        masterObserver.observe(document.body, { childList: true, subtree: true });
+}
+masterObserver.observe(document.body, { childList: true, subtree: true });
+
+RecReading=true
+  window.credits = function() {
+    const text = "CODE CREDITS:\n1964 Draft Lodge (Color Setting Codes)\n2000N (Soundtrack Code)\n2025 Netherlands (Several Codes)\nAnd Decstar for Map Background Code\n\nHAVE FUN!";
+  alert(text);
+}
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#000000";
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#B50945";
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+$(".container")[0].style.backgroundColor = "#000000";
+$("#game_window")[0].style.borderColor = "#F9CA02"
+document.getElementById("header").src = "https://raw.githubusercontent.com/FlongydOlson/OlsonMods/main/2000%20Palpatine/2000pbanner.png"
+document.body.background = "https://raw.githubusercontent.com/FlongydOlson/OlsonMods/main/2000%20Palpatine/2000pback.png";
+$("#game_window")[0].style.backgroundImage = "url(https://raw.githubusercontent.com/FlongydOlson/OlsonMods/main/2000%20Palpatine/2000pbgnew.png)"
+
+$(".footer a").css({"color":"#FFFFFF"});
+nct_stuff.themes[nct_stuff.selectedTheme].text_col = "#FDDF27"
+
+let babyt = document.createElement('style');
+babyt.type = 'text/css';
+babyt.id = 'dynamic-style';
+babyt.innerHTML = `
+  .campaign_trail_start_emphasis {
+    background-color: transparent;
+  }
+  a:-webkit-any-link {
+  	color: #000000;
+  }
+`;
+document.head.appendChild(babyt);
+
+quotes = ["Everything is proceeding as I have foreseen.", "You have paid the price for your lack of vision.", "I love democracy. I love the Republic.", "Do it!", "I am the Senate!", "It's treason, then.", "Power!!! Unlimited... POWER!!!!!!"]
+customquote = quotes[Math.floor((Math.random() * quotes.length))]
+
+corrr=`\n<font id='wittyquote' size='4' color='#FFE701'><em>`+customquote+`</em></font>`
+
+musicMode = () => {
+    // Initialise custom music
+  
+    $("#music_player")[0].children[0].style.display = "none"
+    $("#music_player")[0].children[1].style.display = "none"
+  
+    document.getElementById("modLoadReveal").style.display = "none"
+    document.getElementById("modloaddiv").style.display = "none"
+  
+    musicBox = document.getElementById("music_player")
+    musicBox.style.display = ""
+  
+    var trackSel;
+    e = campaignTrail_temp
+    e.selectedSoundtrack = 0
+  
+    toTime = (seconds) => {
+        var date = new Date(null);
+        date.setSeconds(seconds);
+        return date.toISOString().substr(14, 5);
+    }
+  
+    generateTime = () => {
+        // Get the audio element
+        var audio = document.getElementById("campaigntrailmusic");
+  
+        timeTracker = document.createElement("div");
+        timeTracker.style = `
+  text-align:left;
+  border-style:solid;
+  border-width:2px;
+  height:150px;
+  width:200px;
+  background-color:#000000;
+  float:right;
+  padding: 10px;
+border-color:#F9CA02;
+color:#FFE701;
+line-height: 1.2em;
+  `
+        $("#trackSelParent")[0].prepend(timeTracker);
+        $("#trackSelParent")[0].prepend(document.createElement("br"));
+  
+        // Create a new element to display the current position of the audio
+        var positionDisplay = document.createElement("gg");
+        positionDisplay.id = "position-display";
+  
+        // Create a new slider element to change the time
+        var timeSlider = document.createElement("input");
+        timeSlider.type = "range";
+        timeSlider.min = 0;
+        timeSlider.max = 1;
+        timeSlider.step = 0.001;
+        timeSlider.value = 0;
+        timeSlider.style.width = "200px";
+        timeSlider.id = "time-slider";
+  
+        var pausePlay = document.createElement("button");
+        pausePlay.id = "position-display";
+        pausePlay.innerHTML = "<b>Pause</b>"
+        pausePlay.style.width = "100%";
+  
+  
+        pausePlay.addEventListener("click", event => {
+            event.preventDefault();
+            updatePositionDisplay();
+            let audio = document.getElementById("campaigntrailmusic");
+            if (audio.paused) {
+                audio.play();
+                event.target.innerHTML = "<b>Pause</b>";
+                return;
+            }
+            audio.pause();
+            event.target.innerHTML = "<b>Play</b>";
+            return;
+        })
+  
+        var volumeLabel = document.createElement("gg");
+        volumeLabel.id = "volume-label";
+        volumeLabel.innerHTML = "<br><b>Volume: </b>"
+  
+        var volumeSlider = document.createElement("input");
+        volumeSlider.type = "range";
+        volumeSlider.min = 0;
+        volumeSlider.max = 1;
+        volumeSlider.step = 0.001;
+        volumeSlider.value = 0;
+        volumeSlider.style.width = "200px";
+        volumeSlider.id = "volume-slider";
+  
+        volumeSlider.value = audio.volume;
+  
+        timeTracker.appendChild(pausePlay);
+        timeTracker.appendChild(document.createElement("br"));
+        timeTracker.appendChild(document.createElement("br"));
+        timeTracker.appendChild(positionDisplay);
+        timeTracker.appendChild(timeSlider);
+        timeTracker.appendChild(volumeLabel);
+        timeTracker.appendChild(volumeSlider);
+  
+        updatePositionDisplay();
+  
+        //for (let i = 0; i < 10; i++)
+        //timeTracker.append(document.createElement("br"));
+  
+  
+        // Function to update the position display
+        function updatePositionDisplay() {
+            positionDisplay.innerHTML = "<b>Time:</b> " + toTime(audio.currentTime) + "<br>";
+            timeSlider.value = audio.duration ? audio.currentTime / audio.duration : 0;
+        }
+  
+        // Function to change the time of the audio
+        function changeTime() {
+            positionDisplay.innerHTML = "<b>Time:</b> " + toTime(audio.currentTime) + "<br>";
+            audio.currentTime = timeSlider.value * audio.duration;
+        }
+  
+        updateVolume = event => {
+            audio.volume = event.target.value;
+        }
+  
+        // Update the position display and slider every second
+        setInterval(updatePositionDisplay, 1000);
+  
+        // Listen for changes to the time slider and change the time of the audio
+        timeSlider.addEventListener("input", changeTime);
+        volumeSlider.addEventListener("input", updateVolume)
+    }
+  
+    function newMusicPlayer() {
+        trackSel = document.createElement("div");
+        trackSel.id = "trackSelParent"
+        let z = `<br><br><br><br><br><br><br><br><br><br><div id='trackSel' style="text-align:left;border-style:solid;border-width:2px;border-color:#F9CA02;overflow-y: scroll;overflow-x: hidden;height:200px; width:400px;background-color:#000000;color:#FFE701;float:right;line-height:1.35em;">`
+        z += `<b><select id='selectSoundtrack'><option value='` + soundtracks[e.selectedSoundtrack].name + `'>` + soundtracks[e.selectedSoundtrack].name + "</option>"
+        for (i in soundtracks) {
+            if (soundtracks[e.selectedSoundtrack] != soundtracks[i]) {
+                z += `<option value='` + soundtracks[i].name + `'>` + soundtracks[i].name + `</option>`
+            }
+        }
+        z += `</select></b><br><br>`
+            // <label><input type="radio" name="option" value="option1">Option 1</label><br>
+        for (i in soundtracks[e.selectedSoundtrack].tracklist) {
+            let a = soundtracks[e.selectedSoundtrack].tracklist[i]
+            let b = `<label><input class="trackSelector" type="radio" name="trackSelector" value="` + i + `">` + a.name + `</label><br>`
+            z += b
+        }
+        z += "</div><br><br>"
+        trackSel.innerHTML = z
+  
+        // select correct song
+  
+        musicBox.appendChild(trackSel);
+        Array.from(document.getElementById("trackSel").children).filter(f => {
+            return f.tagName == "LABEL"
+        }).map(f => f.children[0])[0].checked = true
+  
+        // set soundtrack changer
+  
+        soundtrackSelector = document.getElementById("selectSoundtrack")
+        soundtrackSelector.onchange = function() {
+            for (i in soundtracks) {
+                if (soundtracks[i].name == soundtrackSelector.value) {
+                    e.selectedSoundtrack = i
+                    break
+                }
+            }
+            document.getElementById("trackSelParent").remove()
+            newMusicPlayer()
+        }
+  
+        var matches = document.querySelectorAll('.trackSelector');
+  
+        for (match in matches) {
+            matches[match].onchange = function() {
+                audio = $("#campaigntrailmusic")[0];
+                audio.src = soundtracks[e.selectedSoundtrack].tracklist[this.value].url
+                audio.currentTime = 0
+            }
+        }
+  
+        musicBox.children[2].loop = false
+        musicBox.children[2].src = soundtracks[e.selectedSoundtrack].tracklist[0].url
+  
+        musicBox.children[2].onended = function() {
+            console.log("next track")
+            let selected = Number(document.querySelector('input[name="trackSelector"]:checked').value);
+            let newSel = clamp(selected + 1, soundtracks[e.selectedSoundtrack].tracklist.length - 1, 0)
+            let buttons = Array.from(document.getElementById("trackSel").children).filter(f => {
+                    return f.tagName == "LABEL"
+                }).map(f => f.children[0])
+                //let selectedIndex = buttons.map(f=>f.children[0]).map(f=>f.checked)
+            buttons[newSel].click()
+        }
+  
+        for (w = 0; w < 7; w++) {
+            document.getElementById("trackSelParent").appendChild(document.createElement("br"))
+        }
+  
+        generateTime();
+    }
+  
+    clamp = function(a, max, min, overflow = true) {
+        if (overflow) {
+            return a > max ? min : a < min ? max : a;
+        }
+        return a > max ? max : a < min ? min : a;
+    }
+  
+  
+    // Track list
+  
+    var soundtracks = {
+        0: {
+            name: "Intro Music",
+            tracklist: [
+              {
+                "name": "Star Wars Theme/Cantina Band - Meco",
+                "url": "https://raw.githubusercontent.com/FlongydOlson/OlsonMods/main/2000%20Palpatine/Star_Wars_Theme_Cantina_Band.mp3"
+              }
+          ]
+        },
+               1: {
+          name: "Emperor",
+          tracklist: [
+            {
+                "name": "Jedi Rocks - John Williams",
+                "url": "https://raw.githubusercontent.com/FlongydOlson/OlsonMods/main/2000%20Palpatine/Jedi_Rocks.mp3"
+            },
+            {
+              "name": "Lapti Nek - John Williams",
+              "url": "https://raw.githubusercontent.com/FlongydOlson/OlsonMods/main/2000%20Palpatine/Lapti_Nek.mp3"
+            },
+            {
+              "name": "Emperor's Throne Room - John Williams",
+              "url": "https://raw.githubusercontent.com/FlongydOlson/OlsonMods/main/2000%20Palpatine/Emperors_Throne_Room.mp3"
+            },
+            {
+                "name": "Cantina Band #2 - John Williams",
+                "url": "https://raw.githubusercontent.com/FlongydOlson/OlsonMods/main/2000%20Palpatine/Cantina_Band_2.mp3"
+            },
+            {
+                "name": "The Battle Of Endor III - John Williams",
+                "url": "https://raw.githubusercontent.com/FlongydOlson/OlsonMods/main/2000%20Palpatine/The_Battle_Of_Endor_III.mp3"
+            },
+            {
+                "name": "Victory Celebration/End Title - John Williams",
+                "url": "https://raw.githubusercontent.com/FlongydOlson/OlsonMods/main/2000%20Palpatine/Victory_Celebration_End_Title.mp3"
+            }
+        ]
+      },
+      2: {
+        name: "Chancellor",
+        tracklist: [
+            {
+                "name": "Duel of the Fates - John Williams",
+                "url": "https://raw.githubusercontent.com/FlongydOlson/OlsonMods/main/2000%20Palpatine/Duel_of_the_Fates.mp3"
+            },
+            {
+              "name": "Jango's Escape - John Williams",
+              "url": "https://raw.githubusercontent.com/FlongydOlson/OlsonMods/main/2000%20Palpatine/Jangos_Escape.mp3"
+            },
+            {
+              "name": "General Grievous - John Williams",
+              "url": "https://raw.githubusercontent.com/FlongydOlson/OlsonMods/main/2000%20Palpatine/General_Grievous.mp3"
+            },
+            {
+                "name": "Palpatine's Teaching - John Williams",
+                "url": "https://raw.githubusercontent.com/FlongydOlson/OlsonMods/main/2000%20Palpatine/Palpatines_Teaching.mp3"
+            },
+            {
+                "name": "Enter Lord Vader - John Williams",
+                "url": "https://raw.githubusercontent.com/FlongydOlson/OlsonMods/main/2000%20Palpatine/Enter_Lord_Vader.mp3"
+            },
+            {
+                "name": "Battle of the Heroes - John Williams",
+                "url": "https://raw.githubusercontent.com/FlongydOlson/OlsonMods/main/2000%20Palpatine/Battle_of_the_Heroes.mp3"
+            }
+         ]
+      }
+    }
+
+  
+    // Set up new music player
+  
+    newMusicPlayer()
+  
+
+}
+
+  $("#game_start").click((event) => {
+    event.preventDefault();
+    musicMode();
+  })
+
+HistHexcolour=["#B82859","#4DC8E6","#45A457","#F9DC38"];
+        HistName=[" Sheev Palpatine"," Al Gore"," Ralph Nader"," George Lucas"];
+        HistEV=[290,248,0,0];
+        HistPV=["50,713,240","49,721,272","3,880,910","1,089,678"];
+        HistPVP=["48.1%","47.2%","3.7%","1.0%"];
+
+campaignTrail_temp.modBoxTheme = {
+    "header_color" : "#000000",
+    "header_text_color" : "#FFE701",
+     "header_image_url": "https://raw.githubusercontent.com/FlongydOlson/OlsonMods/refs/heads/main/2000%20Palpatine/2000pthumb.png",
+    "description_text_color" : "#FFE701",
+    "description_background_color" : "#000000",
+    "main_color" : "#000000",
+    "secondary_color" : "#000000",
+    "ui_text_color": "#FFE701"
+}
+
+document.head.innerHTML += `
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR&display=swap" rel="stylesheet">
+<style>
+@font-face {
+    font-family: 'Star Wars';
+    font-style: normal;
+    font-weight: 400;
+    src: url('https://raw.githubusercontent.com/FlongydOlson/OlsonMods/main/2000%20Palpatine/StarWars.woff') format('woff');
+}
+  @keyframes fadeInScale {
+    0% {
+      opacity: 0;
+      transform: scale(0.95);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  .overlay_window {
+    animation: fadeInScale 0.3s cubic-bezier(0.3, 1.2, 0.2, 1) forwards;
+    opacity: 0;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-flow: column;
+  }
+</style>`
+
+  document.getElementById("inner_window_1").children[0].innerHTML = ``
+  document.getElementById("inner_window_1").children[1].style.marginLeft = "-40px";
+  document.getElementById("inner_window_1").children[1].innerHTML = ``
+  document.getElementById("game_start").innerHTML = "A long time ago in a galaxy far, far away...";
+
+const style = document.createElement("style");
+  style.textContent = `
+  #game_start {
+    font-family: Star Wars, Ariel, "Helvetica Neue", Helvetica, sans-serif !important;
+    color: #4DC8E6;
+    background: black;
+    border: 2px solid #F9CA02;
+    border-radius: 0.5em;
+    height: 4em;
+    width: 25em;
+  }
+
+  #game_start:hover {
+    font-family: Star Wars, Ariel, "Helvetica Neue", Helvetica, sans-serif !important;
+    color: #3B9AAF;
+    background: black;
+    border: 2px solid #F9CA02;
+    border-radius: 0.5em;
+  }
+  .base {
+    font-family: IBM Plex Sans KR, Ariel, "Helvetica Neue", Helvetica, sans-serif;
+  }
+
+  button {
+    font-family: IBM Plex Sans KR, Ariel, "Helvetica Neue", Helvetica, sans-serif;
+line-height: 1.3em;
+  }
+
+  select {
+    font-family: IBM Plex Sans KR, Ariel, "Helvetica Neue", Helvetica, sans-serif;
+  }
+
+      .game_header {
+        padding-top: 1em;
+        padding-bottom: 1em;
+        border-color: #F9CA02;
+        background-color: #000000;
+      }
+
+      #inner_window_1 {
+        margin-top: 16em;
+        background: none;
+        border: none;
+      }
+
+      #theme_picker, .footer h4 {
+    display: none;
+      }
+
+      .footer {
+    border-color: black;
+      }
+
+      .content_single {
+    border-color: rgb(0,0,0,0);
+      }
+
+      #site_credits p, div#site_credits a {
+    color: black !important;
+      }
+
+      .footer hr {
+    border-color: black;
+    border-style: solid;
+      }
+
+#recommended_reading_box {
+    border: 2px solid #F9CA02;
+    background-color: black;
+    color: #4DC8E6;
+}
+
+
+      #inner_window_2 {
+        background: #B50945;
+        color: black;
+    border-color: #7F0630;
+    border-width: 2px;
+    border-style: solid;
+    border-image: initial;
+      }
+
+      #inner_window_3 {
+        background: #B50945;
+        color: black;
+    border-color: #7F0630;
+    border-width: 2px;
+    border-style: solid;
+    border-image: initial;
+      }
+
+      #inner_window_4 {
+        background: #B50945;
+        color: black;
+    border-color: #7F0630;
+    border-width: 2px;
+    border-style: solid;
+    border-image: initial;
+      }
+
+      #election_description_window {
+        background-color: black;
+        color: white;
+        height: 250px;
+    border-color: #000000;
+    border-width: 2px;
+    border-style: solid;
+    border-image: initial;
+      }
+
+      #candidate_description_window {
+        height: 352px;
+        background: #FFFAD8;
+        color: black;
+    border-color: #000000;
+    border-width: 2px;
+    border-style: solid;
+    border-image: initial;
+      }
+
+      #running_mate_description_window {
+        height: 352px;
+        background: #FFFAD8;
+        color: black;
+    border-color: #000000;
+    border-width: 2px;
+    border-style: solid;
+    border-image: initial;
+      }
+
+      #opponent_selection_description_window {
+    border-color: #000000;
+        background: #FFFAD8;
+        color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-image: initial;
+      }
+
+     .container {
+        border-color: #000000;
+      }
+
+      .inner_window_w_desc {
+        height: 87%;
+      }
+
+      #credits {
+    margin-top: 2.5em;
+      }
+
+      #election_image {
+            margin-top: 45px;
+            display: none;
+      }
+
+      #candidate_image {
+            margin-left: 0px;
+            margin-top: 0px;
+            width: 300px;
+            height: 352px;
+            z-index: 1;
+            border:none;
+            outline:none;
+      }
+
+      #candidate_image img{
+            padding: 0px 0px; 
+            border: 2px solid #000000;
+            z-index: 0;
+            width: 306px;
+            height: 350px;
+      }
+
+      #running_mate_image {
+            margin-left: 0px;
+            margin-top: 0px;
+            width: 300px;
+            height: 352px;
+            z-index: 1;
+            border:none;
+            outline:none;
+      }
+
+      #running_mate_image img{
+            padding: 0px 0px; 
+            border: 2px solid #000000;
+            z-index: 0;
+            width: 306px;
+            height: 350px;
+      }
+
+button {
+    appearance: none;
+    background-color: #000000;
+    border-color: #F9CA02;
+    color: #FFE701;
+    border-radius: 3px;
+    border-width: 2px;
+    border-style: solid;
+    border-image: initial;
+}
+
+button:active {
+    appearance: none;
+    background-color: #000000;
+    border-color: #BCAA01;
+    color: #BCAA01;
+    border-radius: 3px;
+    border-width: 2px;
+    border-style: solid;
+    border-image: initial;
+}
+
+button:hover {
+    appearance: none;
+    background-color: #000000;
+    border-color: #BCAA01;
+    color: #FFE701;
+    border-radius: 3px;
+    border-width: 2px;
+    border-style: solid;
+    border-image: initial;
+}
+
+button:disabled,
+button[disabled]{
+    appearance: none;
+    background-color: #000000;
+    border-color: #BCAA01;
+    color: #BCAA01;
+    border-radius: 3px;
+    border-width: 2px;
+    border-style: solid;
+    border-image: initial;
+}
+
+select {
+    color: #FFE701;
+    border-color: #FFE701 !important;
+    background-color: #000000;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #F9CA02;
+    border-image: initial;
+    border-radius: 3px;
+}
+
+select:hover {
+    color: #BCAA01;
+    border-color: #FFE701 !important;
+    background-color: #000000;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #FFFFFF;
+    border-image: initial;
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar {
+    width: 14px;
+    height: 14px;
+}
+
+::-webkit-scrollbar-track { 
+    background-color: #000000;
+}
+
+::-webkit-scrollbar-thumb { 
+    background-color: #FFE701;
+    border-radius: 10px;
+    border: 3px solid #000000;
+}
+
+::-webkit-scrollbar-button {
+    display: none;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #BCAA01;
+}
+
+      #election_id_button {
+    margin-top: 2.5em;
+      }
+
+      #credits {
+    margin-top: 2.5em;
+      }
+
+
+      #question_form input[type="radio"] + label:hover,
+      #question_form input[type="radio"] + label:focus {
+    font-size: 1em;
+    font-weight: normal; 
+    background: #FFF6BF;
+      }
+
+      #question_form input[type="radio"]:checked + label {
+    background: #FFF3A5;
+    transition: 1s ease-out;
+      }
+
+.overlay_window h3 {
+    display: none;
+}
+
+.overlay_window img {
+    margin-top: 1.5em;
+}
+
+     .rounded-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border: 2px solid #F9CA02;
+        margin: 10px;
+        height: 50px;
+        background-color: white;
+        border-radius: 4px;
+        overflow: hidden;
+      }
+
+     .square-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-color: #F9CA02;
+        border-top-width: 2px;
+        border-bottom-width: 2px;
+        border-left-width: 0px;
+        border-right-width: 2px;
+        border-top-right-radius: 0.8em;
+        border-bottom-right-radius: 0.8em;
+        border-style: solid;
+        background-color: white;
+        overflow: hidden;
+      }
+
+     .party-square-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-color: #F9CA02;
+        border-top-width: 2px;
+        border-bottom-width: 2px;
+        border-left-width: 2px;
+        border-right-width: 0px;
+        border-top-left-radius: 0.8em;
+        border-bottom-left-radius: 0.8em;
+        border-style: solid;
+        background-color: white;
+        overflow: hidden;
+      }
+
+     .party-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-color: #F9CA02;
+        border-width: 2px;
+        border-top-right-radius: 0.8em;
+        border-bottom-right-radius: 0.8em;
+        border-style: solid;
+        background-color: white;
+        overflow: hidden;
+      }
+
+     .candidate-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-color: #F9CA02;
+        border-width: 2px;
+        border-top-left-radius: 0.8em;
+        border-bottom-left-radius: 0.8em;
+        border-style: solid;
+        background-color: white;
+        overflow: hidden;
+      }
+
+    #overall_election_details b {
+        display: none;
+    }
+
+table, th, td {
+  box-sizing: border-box;
+  border: 2px solid #F9CA02;
+  background-color: #000000;
+  color: #FFE701;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table tr:hover td {
+  background-color: #000000;
+  color: #BCAA01;
+}
+
+#overall_details_container table td:first-child span {
+  margin-left: .2em;
+}
+
+  #state_result_data_summary table td:first-child span, #overall_details_container table td:first-child span, .final_results_table td:first-child span {
+    border: .1rem solid rgba(0,0,0,0.2);
+    border-radius: 100%;
+    display: inline-flex;
+    height: 0.7em;
+    text-indent: -9999px;
+    vertical-align: middle;
+    width: 0.7em;
+   }
+
+  #overall_result span, #state_result span {
+    border: .1rem solid rgba(0,0,0,0.2);
+    border-radius: 100%;
+    display: inline-flex;
+    height: 0.7em;
+    text-indent: -9999px;
+    vertical-align: middle;
+    width: 0.7em;
+   }
+
+#map_footer {
+    padding-top: 3em;
+}
+
+#overall_details_container {
+    height: 444px;
+}
+
+  `;
+document.head.appendChild(style);
