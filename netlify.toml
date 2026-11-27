@@ -1,0 +1,5 @@
+[build]
+  # Install the gems from Gemfile.lock before building, so the build works
+  # even in environments that don't run `bundle install` automatically.
+  command = "bundle install && bundle exec jekyll build"
+  publish = "_site"
